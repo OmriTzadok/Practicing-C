@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 
-#include "solution.c"
+#include "my_solution.c"
 
 static void print_mac(const mac_address* m) {
     const unsigned char* a = (const unsigned char*)m->address;
